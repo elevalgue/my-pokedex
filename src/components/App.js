@@ -1,22 +1,13 @@
 import React from 'react';
+// import PokemonList from './PokemonList';
 import '../stylesheets/App.css';
 
-function App() {
-  return (
-    <div className='App'>
-      <header className='App-header'>
-        <p>
-          <code>src/App.js</code> Hola mundo!
-        </p>
-        <a
-          className='App-link'
-          href='https://reactjs.org'
-          target='_blank'
-          rel='noopener noreferrer'
-        >
-          Learn React
-        </a>
-      </header>
+function App extends React.Component {
+  render(){ 
+    
+    return (
+    <div>
+      <PokemonList/>
     </div>
   );
 }

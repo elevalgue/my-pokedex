@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-// import PokemonList from './PokemonList';
 import '../stylesheets/App.css';
 import pokemonsFromApi from '../data/pokemon.json';
 import PokemonList from './PokemonList';
@@ -9,6 +8,7 @@ const App = () => {
 
   return (
     <div className='App'>
+      <h1>Pokedex</h1>
       <PokemonList pokemons={pokemons} />
     </div>
   );

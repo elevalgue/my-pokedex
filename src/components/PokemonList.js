@@ -1,14 +1,21 @@
 import React from 'react';
-import '../components/App.css';
-import PokemItem from '..components/PokemItem';
+import PropTypes from 'prop-types';
+import Pokemon from './Pokemon';
 
-const PokemonList = => { 
-    //tengo que recorrer el array
-
+const PokemonList = (props) => {
+  const pokemonItems = props.pokemons.map((pokemon) => {
     return (
-        <ul><PokemItem></ul>
+      <li key={pokemon.id} className='pokemon-card'>
+        <Pokemon name={pokemon.name} url={pokemon.url} types={pokemon.types} />
+      </li>
     );
+  });
+
+  return <ul className='pokemon-list'>{pokemonItems}</ul>;
 };
 
+PokemonList.propTypes = {
+  pokemons: PropTypes.array,
+};
 
 export default PokemonList;

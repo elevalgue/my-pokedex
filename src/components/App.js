@@ -7,8 +7,8 @@ const App = () => {
   const [pokemons, setPokemons] = useState(pokemonsFromApi);
 
   return (
-    <div className='App'>
-      <h1>Pokedex</h1>
+    <div className='App pokemon-list_container'>
+      <h1 className='app-title'>Pokedex</h1>
       <PokemonList pokemons={pokemons} />
     </div>
   );

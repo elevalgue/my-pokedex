@@ -8,7 +8,7 @@ const App = () => {
 
   return (
     <div className='App pokemon-list_container'>
-      <h1 className='app-title'>Pokedex</h1>
+      <h1 className='app-title'>Pokédex</h1>
       <PokemonList pokemons={pokemons} />
     </div>
   );

@@ -1,6 +1,8 @@
+Módulo 3: Ejercicio de evaluación intermedia
+
 ![Estos son mis Pokémon favoritos](catch-them-all.png)
 
-Módulo 3: Ejercicio de evaluación intermedia El ejercicio consiste en desarrollar una página web sencilla con React.
+El ejercicio consiste en desarrollar una página web sencilla con React.
 
 Antes de empezar, tenéis que crear un nuevo repositorio en GitHub desde GitHub Classroom usando este enlace. Una vez creado, lo clonaremos en nuestro ordenador y en la carpeta creada empezaremos a trabajar en el ejercicio. La web consiste en un listado de pokemon, con una tarjeta para cada uno con información relevante, como el nombre, tipos y una imagen. La información de los pokemon la obtenemos de un array de datos que incluiremos en el estado del componente App.
 

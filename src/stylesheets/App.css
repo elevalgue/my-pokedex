@@ -24,6 +24,11 @@
   text-align: center;
   padding: 10px;
 }
+.pokemon-card:hover {
+  transform: translateY(10px);
+  cursor: pointer;
+  transition: all ease 0.3s;
+}
 
 h2 {
   font-size: 14px;

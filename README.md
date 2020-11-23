@@ -1,6 +1,6 @@
 Módulo 3: Ejercicio de evaluación intermedia
 
-![Estos son mis Pokémon favoritos](catch-them-all.png)
+![Estos son mis Pokémon favoritos]
 
 El ejercicio consiste en desarrollar una página web sencilla con React.
 

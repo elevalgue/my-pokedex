@@ -3,8 +3,8 @@ import '../stylesheets/App.css';
 import pokemonsFromApi from '../data/pokemon.json';
 import PokemonList from './PokemonList';
 
-const App = () => {
-  const [pokemons, setPokemons] = useState(pokemonsFromApi);
+function App() {
+  const [pokemons] = useState(pokemonsFromApi);
 
   return (
     <div className='App pokemon-list_container'>
